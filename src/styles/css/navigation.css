@@ -1,1 +1,70 @@
-/*# sourceMappingURL=navigation.css.map */
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.hamburger .red {
+  background-color: red;
+}
+
+.off-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box; /* Makes sure padding doesn't add to width/height */
+  z-index: 100;
+}
+
+.off-canvas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.off-canvas ul li a {
+  display: block;
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.close-btn {
+  position: fixed; /* Changed from absolute to fixed */
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000; /* Ensure it is visible against any background */
+  z-index: 101; /* Ensure it's above other content */
+}/*# sourceMappingURL=navigation.css.map */
