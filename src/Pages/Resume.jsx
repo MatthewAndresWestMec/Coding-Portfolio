@@ -1,8 +1,13 @@
 import React from 'react'
+import Navigation from '../Components/Navigation'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>
+              <Navigation/>
+              <h1>Resume</h1>
+
+    </div>
   )
 }
 

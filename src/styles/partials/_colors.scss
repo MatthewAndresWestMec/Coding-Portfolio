@@ -1,0 +1,14 @@
+$bg-color: #2C2B2B;
+$main-color: #D64444;
+$text-color: #ffff;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: $bg-color;
+    font-family: "Inter", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: $text-color;
+}
+

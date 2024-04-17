@@ -1,1 +1,15 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  background-color: #2C2B2B;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.Header > h1 {
+  font-size: 15vh;
+  font-weight: 900;
+  letter-spacing: -11px;
+}/*# sourceMappingURL=main.css.map */

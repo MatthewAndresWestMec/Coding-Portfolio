@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"gallery.css"}
+{"version":3,"sources":["../partials/_colors.scss","gallery.css"],"names":[],"mappings":"AAGQ,wFAAA;AAER;EACI,yBANO;EAOP,gCAAA;ACHJ;;ADMA;EACI,YATS;ACMb","file":"gallery.css"}

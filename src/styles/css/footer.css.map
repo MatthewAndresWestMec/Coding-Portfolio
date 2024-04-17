@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"footer.css"}
+{"version":3,"sources":["../partials/_colors.scss","footer.css"],"names":[],"mappings":"AAGQ,wFAAA;AAER;EACI,yBANO;EAOP,gCAAA;ACHJ;;ADMA;EACI,YATS;ACMb","file":"footer.css"}
