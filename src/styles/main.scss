@@ -1,286 +1,208 @@
 @import './partials/colors';
 
-.name{
-    font-size: 17vh;
-    font-weight: 900;
-    letter-spacing: -1px;
-    text-shadow: 5px 5px $main-color;
-}  
-
-.first{
-    margin-top: 2vh;
-}
-.last{
-    margin-top: -4vh;
-}
-div h1{
-    margin-top: 0;
-        margin-bottom: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
 }
 
-.desc{
-    color:$text-color
+html,
+body {
+    height: 100%;
 }
-.container {
-    max-width: 100vw;
+
+body {
+    // width: 100%;
+    // height: 100%;
+    color: #000;
+    line-height: 1.6;
+    position: relative;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
     display: flex;
-    flex-wrap: wrap;
-    height: 90vh;
-    /* Full height of the viewport */
+    justify-content: space-between;
 }
 
-.box {
-    flex: 50%;
-    /* Each box will take up 50% of the container width */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // border: 1px solid #000;
-    box-sizing: border-box;
-    // height: 50vh;
-    /* Each box will take up 50% of the container height */
+.line {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
-/* Styling for the first box (top left) */
-.box:nth-child(1) {
-    justify-content: flex-end;
-    /* Horizontally align to the right */
-    align-items: flex-end;
-    /* Vertically align to the bottom */
-    
+.line::after {
+    height: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    animation: drop 6s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
 }
 
-/* Styling for the second box (top right) */
-.box:nth-child(2) {
-    justify-content: flex-start;
-    /* Horizontally align to the left */
-    align-items: flex-end;
-    /* Vertically align to the bottom */
-    
+/* Customize the spacing for 11 lines */
+.line:nth-child(1)::after {
+    animation-delay: 1s;
 }
 
-/* Styling for the third box (bottom left) */
-.box:nth-child(3) {
-// display: flex;
-//     flex-direction: column;
-//     /* Stack content vertically */
-//     align-items: flex-end;
-//     /* Align content to the right */
-//     justify-content: flex-start;
-//     /* Align content to the top */
-//         text-align: center;
-justify-content: flex-end;
-    /* Horizontally align to the right */
-    align-items: flex-start;
-    /* Vertically align to the top */
+.line:nth-child(2)::after {
+    animation-delay: 2.2s;
 }
 
-/* Styling for the fourth box (bottom right) */
-.box:nth-child(4) {
-    justify-content: flex-start;
-    /* Horizontally align to the left */
-    align-items: flex-start;
-    /* Vertically align to the top */
-    
+.line:nth-child(3)::after {
+    animation-delay: 2s;
 }
 
-.button {
-    border: 0;
-    transition: 0.5s;
-    z-index: 1;
-    min-width: 10rem;
-    padding: 1rem 2rem;
-    font-size: 0.875rem;
-    font-weight: 900;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: $main-color;
-    color: $text-color;
-    font-family: 'Inter';
-    // Modifier class for double button
-    &.--double {
-        margin:-.5vh 3vh 0 3vh;
-        &:hover {
-            box-shadow: 5px 5px $text-color;
-        }
+.line:nth-child(4)::after {
+    animation-delay: 1.6s;
+}
+
+.line:nth-child(5)::after {
+    animation-delay: 2.6s;
+}
+
+.line:nth-child(6)::after {
+    animation-delay: 1.16s;
+}
+
+.line:nth-child(7)::after {
+    animation-delay: 2.2s;
+}
+
+.line:nth-child(8)::after {
+    animation-delay: 2.4s;
+}
+
+.line:nth-child(9)::after {
+    animation-delay: 1.6s;
+}
+
+.line:nth-child(10)::after {
+    animation-delay: 1.2s;
+}
+
+.line:nth-child(11)::after {
+    animation-delay: 3s;
+}
+
+@keyframes drop {
+    0% {
+        top: -50%;
+    }
+
+    100% {
+        top: 110%;
     }
 }
 
-h2.desc{
-    font-size: 3.5vh;
-    margin-top: 0;
+.header {
+    padding-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    flex: 1 1 45%;
+    height: 40vh;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    h1{
+        font-size: 15vh;
+        font-weight: 700;
+        opacity: 85%;
+        margin: 0 5vw 0 5vw;
+        line-height: .8;
+    }
+} 
+
+/* Adjust the first box */
+.box:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to the start (top) */
+    align-items: flex-start;
+    /* Align content to the start (left) */
+}
+
+/* Adjust the last box */
+.box:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Align content to the end (bottom) */
+    align-items: flex-end;
+    /* Align content to the end (right) */
 }
 
 
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: flex-start;
+        /* Align items to the left */
+    }
 
-.projcard-container {
-    color:$text-color;
-    margin: 10vh 0;
+    .box {
+        width: 100%;
+        /* Full width */
+        margin: 5px 0;
+        /* Adjust margin */
+    }
 }
 
-/* Actual Code: */
-.projcard-container,
-.projcard-container * {
-    box-sizing: border-box;
+.flex-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.projcard-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+.content-container {
+    text-align: left;
+    /* Align text to the left */
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 5vh;
 }
 
-.projcard {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 40px;
-    border-radius: 1px;
-    background-color: $bg-color;
-    border: 1px solid rgba(0, 0, 0, .18);
-    overflow: hidden;
-    cursor: pointer;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+.content-container h2 {
+    font-size: 5vh;
 }
 
-.projcard:hover {box-shadow: 5px 5px $main-color;
-    // border-bottom: 5px solid $main-color;
-    //     border-right: 5px solid $main-color;
-    transform: translate(0px, -3px);
+.content-container p {
+    font-family: 'Inter';
+    font-size: 3vh;
 }
 
-.projcard::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(-70deg, #424242, transparent 50%);
-    opacity: 0.07;
+.image-container {
+    flex: 1;
 }
 
-.projcard:nth-child(2n)::before {
-    background-image: linear-gradient(-250deg, #424242, transparent 50%);
-}
-
-.projcard-innerbox {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.projcard-img {
-    position: absolute;
-    height: 300px;
-    width: 400px;
-    top: 0;
-    left: 0;
-    transition: transform 0.2s ease;
-}
-
-.projcard:nth-child(2n) .projcard-img {
-    left: initial;
-    right: 0;
-}
-
-.projcard:hover .projcard-img {
-    transform: scale(1.05) rotate(1deg);
-}
-
-.projcard:hover .projcard-bar {
-    width: 60%;
-}
-
-.projcard-textbox {
-    position: absolute;
-    top: 7%;
-    bottom: 7%;
-    left: 430px;
-    width: calc(100% - 470px);
-    font-size: 3.5vh;
-}
-
-.projcard:nth-child(2n) .projcard-textbox {
-    left: initial;
-    right: 430px;
-}
-
-.projcard-textbox::before,
-.projcard-textbox::after {
-    content: "";
-    position: absolute;
-    display: block;
-    background: $main-color;
-    background: $bg-color;
-    top: -20%;
-    left: -55px;
-    height: 140%;
-    width: 60px;
-    transform: rotate(8deg);
-}
-
-.projcard:nth-child(2n) .projcard-textbox::before {
-    display: none;
-}
-
-.projcard-textbox::after {
-    display: none;
-    left: initial;
-    right: -55px;
-}
-
-.projcard:nth-child(2n) .projcard-textbox::after {
-    display: block;
-}
-
-.projcard-textbox * {
-    position: relative;
-}
-
-.projcard-title {
-    font-size: 4vh;
-}
-
-.projcard-subtitle {
-    color: $text-color;
-        font-size: 2.5vh;
-}
-
-.projcard-bar {
-    left: -2px;
-    width: 15%;
-    height: 5px;
-    margin: 10px 0;
-    border-radius: 1px;
-    background-color: #424242;
-    transition: width 0.2s ease;
-}
-
-.projcard-red .projcard-bar {
-    background-color: $main-color;
-}
-
-// .projcard-red::before {
-//     background-image: linear-gradient(-70deg, $main-color, transparent 50%);
-// }
-
-// .projcard-red:nth-child(2n)::before {
-//     background-image: linear-gradient(-250deg, $main-color, transparent 50%);
-// }
-
-.projcard-description {
-    z-index: 10;
-    font-size: 1.8vh;
-    color: $text-color;
-    height: 125px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.none{
-    margin:0 !important
+.image-container img {
+    max-width: 100%;
+    /* Ensure image does not exceed its container */
+    height: auto;
 }

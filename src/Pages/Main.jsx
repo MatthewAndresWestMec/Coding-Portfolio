@@ -1,61 +1,59 @@
 import React from 'react';
-import Navigation from '../Components/Navigation';
-import Contact from '../Components/Contact';
-
+// import Navigation from '../Components/Navigation';
+// import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
 import '../styles/css/main.css';
 const Main = () => {
   return (
     <div>
-      <Navigation />
-      <div className='container'>
-        <div className='box'>
-          <h1 className='first name'>Matthew</h1>
+      <div className='lines'>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+      </div>
+
+      {/* <Navigation /> */}
+      <header class='header'>
+        <div class='box'>
+          <h1>bio sci</h1>
+          <h1>student</h1>
         </div>
-        <div className='box'></div>
-        <div className='box'>
-          <h2 className='desc'>College Student / Web Dev</h2>
-          <button className='button --double'>My Work</button>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'>
+          <h1>matt</h1>
+          <h1>andres</h1>
         </div>
-        <div className='box'>
-          <h1 className='last name'>Andres</h1>
+      </header>
+
+      <div class='flex-container'>
+        <div class='content-container'>
+          <h2 class='header-text'>Sup, I'm Matthew</h2>
+          <p class='paragraph-text'>
+            Thank you for visiting my folio. I am currently a Biological Science
+            Student at ASU with intent to study in dentistry. Graduated Sunrise
+            Mountain HS & West-Mec Coding 2024.
+          </p>
+        </div>
+        <div class='image-container'>
+          <img
+            src='https://pngfre.com/wp-content/uploads/cat-poster.png'
+            alt='Image Description'
+          />
         </div>
       </div>
 
-      {/* <div className='Card'>
-        <div className='projcard-container'>
-          <div className='projcard projcard-red'>
-            <div className='projcard-innerbox'>
-              <img
-                className='projcard-img'
-                src='https://picsum.photos/800/600?image=1080'
-              />
-              <div className='projcard-textbox'>
-                <div className='projcard-title'>
-                  A Short Intro To Matthew Andres
-                </div>
-                <div className='projcard-subtitle'>
-                  A college student at ASU studying Biological Science
-                </div>
-                <div className='projcard-bar'></div>
-                <div className='projcard-description'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </div>
-                <button className='none button --double'>My Work</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <Contact />
-      <div className='Footer'></div>
+
+      <Footer />
     </div>
   );
 };
