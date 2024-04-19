@@ -11,33 +11,33 @@ const Main = () => {
         <div className='box'>
           <h1 className='first name'>Matthew</h1>
         </div>
-        <div class='box'></div>
-        <div class='box'>
+        <div className='box'></div>
+        <div className='box'>
           <h2 className='desc'>College Student / Web Dev</h2>
           <button className='button --double'>My Work</button>
         </div>
-        <div class='box'>
+        <div className='box'>
           <h1 className='last name'>Andres</h1>
         </div>
       </div>
 
-      <div className='Card'>
-        <div class='projcard-container'>
-          <div class='projcard projcard-red'>
-            <div class='projcard-innerbox'>
+      {/* <div className='Card'>
+        <div className='projcard-container'>
+          <div className='projcard projcard-red'>
+            <div className='projcard-innerbox'>
               <img
-                class='projcard-img'
+                className='projcard-img'
                 src='https://picsum.photos/800/600?image=1080'
               />
-              <div class='projcard-textbox'>
-                <div class='projcard-title'>
+              <div className='projcard-textbox'>
+                <div className='projcard-title'>
                   A Short Intro To Matthew Andres
                 </div>
-                <div class='projcard-subtitle'>
+                <div className='projcard-subtitle'>
                   A college student at ASU studying Biological Science
                 </div>
-                <div class='projcard-bar'></div>
-                <div class='projcard-description'>
+                <div className='projcard-bar'></div>
+                <div className='projcard-description'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -52,7 +52,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Contact />
       <div className='Footer'></div>

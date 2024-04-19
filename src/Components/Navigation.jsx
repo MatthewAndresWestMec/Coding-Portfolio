@@ -35,9 +35,6 @@ function Navigation() {
               <a href='/about'>About</a>
             </li>
             <li>
-              <a href='/resume'>Resume</a>
-            </li>
-            <li>
               <a href='/gallery'>Gallery</a>
             </li>
           </ul>

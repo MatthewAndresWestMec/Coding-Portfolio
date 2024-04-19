@@ -1,74 +1,77 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styles/css/contact.css';
+
 const Contact = () => {
   return (
     <section>
-      <div class='section-header'>
-        <div class='container-form'>
+      <div className='section-header'>
+        <div className='container-form'>
           <h2>Contact Us</h2>
         </div>
       </div>
 
-      <div class='container-form'>
-        <div class='row'>
-          <div class='contact-info'>
-            <div class='contact-info-item'>
-              <div class='contact-info-icon'>
-                <i class='fas fa-home'></i>
+      <div className='container-form'>
+        <div className='row'>
+          <div className='contact-info'>
+            <div className='contact-info-item'>
+              <div className='contact-info-icon'>
+                <FontAwesomeIcon icon={faHome} />
               </div>
 
-              <div class='contact-info-content'>
+              <div className='contact-info-content'>
                 <h4>Address</h4>
                 <p>
-                  4671 Sugar Camp Road,
-                  <br /> Owatonna, Minnesota, <br />
-                  55060
+                  1234 Something Else Road,
+                  <br /> Peoria, Illinois, <br />
+                  55555
                 </p>
               </div>
             </div>
 
-            <div class='contact-info-item'>
-              <div class='contact-info-icon'>
-                <i class='fas fa-phone'></i>
+            <div className='contact-info-item'>
+              <div className='contact-info-icon'>
+                <FontAwesomeIcon icon={faPhone} />
               </div>
 
-              <div class='contact-info-content'>
+              <div className='contact-info-content'>
                 <h4>Phone</h4>
                 <p>571-457-2321</p>
               </div>
             </div>
 
-            <div class='contact-info-item'>
-              <div class='contact-info-icon'>
-                <i class='fas fa-envelope'></i>
+            <div className='contact-info-item'>
+              <div className='contact-info-icon'>
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
 
-              <div class='contact-info-content'>
+              <div className='contact-info-content'>
                 <h4>Email</h4>
                 <p>ntamerrwael@mfano.ga</p>
               </div>
             </div>
           </div>
 
-          <div class='contact-form'>
+          <div className='contact-form'>
             <form action='' id='contact-form'>
               <h2>Send Message</h2>
-              <div class='input-box'>
-                <input type='text' required='true' name='' />
+              <div className='input-box'>
+                <input type='text' required name='' />
                 <span>Full Name</span>
               </div>
 
-              <div class='input-box'>
-                <input type='email' required='true' name='' />
+              <div className='input-box'>
+                <input type='email' required name='' />
                 <span>Email</span>
               </div>
 
-              <div class='input-box'>
-                <textarea required='true' name=''></textarea>
+              <div className='input-box'>
+                <textarea required name=''></textarea>
                 <span>Type your Message...</span>
               </div>
 
-              <div class='input-box'>
+              <div className='input-box'>
                 <input type='submit' value='Send' name='' />
               </div>
             </form>

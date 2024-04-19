@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 section {
@@ -147,11 +146,15 @@ section {
 }
 
 .contact-form {
-  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background-color: #2b2b2b;
   padding: 40px;
   width: 45%;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+.contact-form:hover {
+  box-shadow: 5px 5px #D64444;
 }
 
 .contact-form h2 {
@@ -169,6 +172,7 @@ section {
 
 .contact-form .input-box input,
 .contact-form .input-box textarea {
+  color: black;
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -192,7 +196,7 @@ section {
 
 .contact-form .input-box input:focus ~ span,
 .contact-form .input-box textarea:focus ~ span {
-  color: #e91e63;
+  color: white;
   font-size: 12px;
   transform: translateY(-20px);
 }
@@ -210,8 +214,7 @@ section {
 }
 
 .contact-form .input-box input[type=submit]:hover {
-  background: white;
-  color: #D64444;
+  box-shadow: 5px 5px white;
 }
 
 @media (max-width: 991px) {
@@ -229,4 +232,24 @@ section {
   .contact-form {
     width: 100%;
   }
+}
+#contact-form h2 {
+  color: white;
+}
+
+.contact-info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  /* Assuming $text-color is defined */
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-info-icon svg {
+  font-size: 30px;
+  /* Adjust the font size of the icon */
 }/*# sourceMappingURL=contact.css.map */
