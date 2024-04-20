@@ -1,6 +1,6 @@
 import React from 'react';
 // import Navigation from '../Components/Navigation';
-// import Contact from '../Components/Contact';
+import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import '../styles/css/main.css';
 const Main = () => {
@@ -38,9 +38,9 @@ const Main = () => {
         <div class='content-container'>
           <h2 class='header-text'>Sup, I'm Matthew</h2>
           <p class='paragraph-text'>
-            Thank you for visiting my folio. I am currently a Biological Science
-            Student at ASU with intent to study in dentistry. Graduated Sunrise
-            Mountain HS & West-Mec Coding 2024.
+            Thank you for visiting my portfolio. I am currently a Biological
+            Science Student at ASU with intent to study in dentistry. Graduated
+            Sunrise Mountain HS & West-Mec Coding 2024.
           </p>
         </div>
         <div class='image-container'>
