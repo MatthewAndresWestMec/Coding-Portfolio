@@ -1,14 +1,14 @@
-import React from 'react'
-import Navigation from '../Components/Navigation'
+import React from 'react';
+import Navigation from '../Components/Navigation';
 
 const Gallery = () => {
   return (
     <div>
-              <Navigation/>
-              <h1>Gallery</h1>
-
+      <Navigation />
+      <br></br>
+      <h1 className='under'>My Work</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;

@@ -12,8 +12,6 @@ body {
 }
 
 body {
-    // width: 100%;
-    // height: 100%;
     color: #000;
     line-height: 1.6;
     position: relative;
@@ -121,7 +119,6 @@ body {
 
 .box {
     flex: 1 1 45%;
-    height: 40vh;
     padding: 20px;
     text-align: center;
     margin: 5px;
@@ -136,6 +133,7 @@ body {
 
 /* Adjust the first box */
 .box:nth-child(1) {
+        height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,8 +142,27 @@ body {
     /* Align content to the start (left) */
 }
 
+.box:nth-child(2) {
+        height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to the start (top) */
+    align-items: flex-start;
+    /* Align content to the start (left) */
+}
+.box:nth-child(3) {
+        height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to the start (top) */
+    align-items: flex-start;
+    /* Align content to the start (left) */
+}
 /* Adjust the last box */
 .box:nth-child(4) {
+        height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

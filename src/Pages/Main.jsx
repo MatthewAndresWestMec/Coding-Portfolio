@@ -1,11 +1,12 @@
 import React from 'react';
-// import Navigation from '../Components/Navigation';
+import Navigation from '../Components/Navigation';
 import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import '../styles/css/main.css';
 const Main = () => {
   return (
     <div>
+      <Navigation />
       <div className='lines'>
         <div className='line'></div>
         <div className='line'></div>
@@ -23,14 +24,14 @@ const Main = () => {
       {/* <Navigation /> */}
       <header class='header'>
         <div class='box'>
-          <h1>bio sci</h1>
-          <h1>student</h1>
+          <h1>BIOLOGY</h1>
+          <h1>STUDENT</h1>
         </div>
         <div class='box'></div>
         <div class='box'></div>
         <div class='box'>
-          <h1>matt</h1>
-          <h1>andres</h1>
+          <h1>MATT</h1>
+          <h1>ANDRES</h1>
         </div>
       </header>
 

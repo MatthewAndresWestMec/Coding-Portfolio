@@ -1,2 +1,60 @@
-@import './partials/colors'
+@import './partials/colors';
  
+
+.under{
+    text-align: center;
+margin-top: 8vh;
+font-size: 12vh;
+}
+.button-section{
+    margin-top: 10vh;
+    text-align: center;
+    h1{
+        font-size: 7vh;
+    }
+}
+.button-section .flex-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.resume-container,
+.work-container {
+    margin: 0 10px;
+    /* Adds space between the two containers */
+}
+
+button {
+    padding: 10px 20px;
+    /* Adds some padding inside the buttons for better appearance */
+    font-size: 16px;
+    /* Sets a more readable font size */
+    cursor: pointer;
+    
+    width: 200px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background: #fff;
+}
+.twelve{
+    color: #383b3a;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 3px #ccc;
+        transition: transform 100ms;
+}
+.twelve:hover {
+    transform: translateY(1px);
+    box-shadow: 0 2px #ccc;
+}
+
+.twelve:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 1px #ccc;
+}

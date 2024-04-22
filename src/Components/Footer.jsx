@@ -8,7 +8,7 @@ const Footer = () => {
           <div className='footer-logo'>
             <h2>&copy; Matthew Andres 2024</h2>
 
-            <h3>Website Designer</h3>
+            <h3>Biology Student</h3>
           </div>
           <div className='footer-links'>
             <ul className='footer-menu'>

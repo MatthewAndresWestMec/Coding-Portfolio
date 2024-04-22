@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 html,
 body {
-  background-color: #ddd3c7;
   font-family: "Inter", sans-serif;
   height: 100%;
   max-height: 100%;
@@ -11,6 +10,7 @@ body {
   padding: 0;
   background: linear-gradient(300deg, rgba(62, 158, 255, 0.7607843137), #ddd3c7, #ddd3c7, #e8c599, #e66e3b);
   background-size: 180% 180%;
+  background-attachment: fixed;
   animation: gradient-animation 21s ease infinite;
 }
 @keyframes gradient-animation {
@@ -31,94 +31,4 @@ h1, h2, h3, h4, h5, h6 {
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  margin: 0;
-  /* Reset default margin */
-}
-
-.navbar {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-}
-
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 32px;
-  /* Increased height of hamburger icon */
-  width: 32px;
-  /* Increased width of hamburger icon */
-  cursor: pointer;
-  margin-right: 16px;
-  /* Increased margin for spacing */
-}
-
-.close-btn {
-  margin-right: 16px;
-  /* Increased margin for spacing */
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 32px;
-  /* Increased font size for close button */
-  cursor: pointer;
-  color: #313030;
-  z-index: 101;
-  /* Ensure it's above other content */
-}
-
-.hamburger .bar {
-  display: block;
-  height: 4px;
-  /* Increased height of hamburger bars */
-  width: 100%;
-  background-color: #313030;
-  /* Use the text color for hamburger bars */
-  border-radius: 1px;
-}
-
-.hamburger .bar.red {
-  background-color: white !important;
-  /* Override background color for specific bar */
-}
-
-.off-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ddd3c7;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
-  /* Makes sure padding doesn't add to width/height */
-  z-index: 100;
-}
-
-.off-canvas ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.off-canvas ul li a {
-  font-weight: bold;
-  font-size: 28px;
-  /* Increased font size for menu items */
-  padding: 12px;
-  /* Increased padding for menu items */
-  text-decoration: none;
-  color: #313030;
-  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=navigation.css.map */
