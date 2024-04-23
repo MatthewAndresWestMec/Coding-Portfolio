@@ -16,7 +16,7 @@ const Contact = () => {
           <h2 className='contact-header'>CONTACT</h2>
           <div className='links'>
             <div className='link'>
-              <a>
+              <a href='https://i.postimg.cc/m2mg2Hjm/linkedin.png'>
                 <img
                   className='image-contact'
                   src='https://i.postimg.cc/m2mg2Hjm/linkedin.png'
@@ -25,7 +25,7 @@ const Contact = () => {
               </a>
             </div>
             <div className='link'>
-              <a>
+              <a href='https://i.postimg.cc/YCV2QBJg/github.png'>
                 <img
                   className='image-contact'
                   src='https://i.postimg.cc/YCV2QBJg/github.png'
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
             </div>
             <div className='link'>
-              <a>
+              <a href='https://i.postimg.cc/W4Znvrry/codepen.png'>
                 <img
                   className='image-contact'
                   src='https://i.postimg.cc/W4Znvrry/codepen.png'
@@ -43,7 +43,7 @@ const Contact = () => {
               </a>
             </div>
             <div className='link'>
-              <a>
+              <a href='https://i.postimg.cc/NjLfyjPB/email.png'>
                 <img
                   className='image-contact'
                   src='https://i.postimg.cc/NjLfyjPB/email.png'

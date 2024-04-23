@@ -44,7 +44,7 @@ const Main = () => {
           data-aos-delay='200'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
-            alt='Image Description'
+            alt='Description'
           />
         </div>
       </div>
