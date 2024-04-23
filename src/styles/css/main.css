@@ -3,6 +3,7 @@ html,
 body {
   font-family: "Inter", sans-serif;
   height: 100%;
+  overflow-x: none;
   max-height: 100%;
   width: 100%;
   max-width: 100%;
@@ -53,7 +54,7 @@ body {
 }
 
 .header {
-  padding-top: 5vh;
+  padding-top: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -132,6 +133,7 @@ body {
   }
 }
 .flex-container {
+  margin-top: 10vh;
   text-align: center;
   display: flex;
   justify-content: space-between;

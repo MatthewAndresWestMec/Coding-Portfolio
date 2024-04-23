@@ -10,7 +10,7 @@ const Main = () => {
 
       <header className='header'>
         <div className='box'>
-          <h1>BIOLOGY</h1>
+          <h1>CODING</h1>
           <h1>STUDENT</h1>
         </div>
         <div className='box'></div>
@@ -41,7 +41,7 @@ const Main = () => {
       <Contact />
 
       <Footer />
-      <div className='lines'>
+      {/* <div className='lines'>
         <div className='line'></div>
         <div className='line'></div>
         <div className='line'></div>
@@ -53,7 +53,7 @@ const Main = () => {
         <div className='line'></div>
         <div className='line'></div>
         <div className='line'></div>
-      </div>
+      </div> */}
     </div>
   );
 };

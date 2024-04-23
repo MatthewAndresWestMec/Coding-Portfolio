@@ -3,6 +3,7 @@ html,
 body {
   font-family: "Inter", sans-serif;
   height: 100%;
+  overflow-x: none;
   max-height: 100%;
   width: 100%;
   max-width: 100%;
@@ -37,10 +38,10 @@ ul {
   list-style: none;
 }
 
-a {
+.navbar a {
   text-decoration: none;
-  color: black;
-  font-size: 18px;
+  color: #313030;
+  font-size: 4vh;
 }
 
 /* navbar */
@@ -55,8 +56,9 @@ a {
 
 /* logo  */
 .logo {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh !important;
+  font-family: "Inter";
+  font-weight: 900;
 }
 
 /* ul  */
@@ -106,6 +108,10 @@ a {
   }
   .navMenu.active {
     left: 0;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 100%;
+    z-index: 2;
   }
   .navMenu li {
     margin: 16px 0;

@@ -13,7 +13,7 @@ font-size: 12vh;
         font-size: 7vh;
     }
 }
-.button-section .flex-container {
+.button-section .flex-container1 {
     
     display: flex;
     justify-content: center;
@@ -21,6 +21,13 @@ font-size: 12vh;
     height: 10vh;
 }
 
+.flex-container1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 .resume-container,
 .work-container {
     margin: 0 10px;

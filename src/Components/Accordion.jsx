@@ -59,10 +59,12 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            During my time at West-MEC coding, I acquired a comprehensive skill
+            set in web development technologies. I learned HTML, CSS,
+            JavaScript, SCSS (Sass), TypeScript, MongoDB, Node.js, and JWT (JSON
+            Web Tokens). Through my participation in Future Business Leaders of
+            America (FBLA), I gained practical experience and developed my
+            abilities in applying these technologies to real-world projects
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -74,10 +76,15 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            During my internship with United Way of Northern Arizona, I
+            collaborated with a team of four individuals to develop a mental
+            health wellness app. This project involved leveraging my skills in
+            web development, including React, SCSS, and Node.js depending on the
+            project's requirements. Our goal was to create a user-friendly and
+            effective app that could provide resources and support for mental
+            health wellness. Through this experience, I gained practical insight
+            into project management, teamwork, and the application of technology
+            to address important societal needs related to mental health.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -89,10 +96,14 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            I am currently studying bioscience at Arizona State University with
+            the goal of pursuing post-graduate studies in pharmacy, dentistry,
+            or optometry. My academic focus reflects a deep interest in
+            healthcare and a desire to contribute to specialized fields within
+            the medical profession. I am dedicated to building a strong
+            foundation in bioscience during my undergraduate studies to prepare
+            for advanced education and a career focused on improving healthcare
+            outcomes.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -104,10 +115,14 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            In addition to my academic pursuits, I have actively engaged in
+            volunteering experiences that align with my passion for
+            environmental stewardship and education. One of my roles involved
+            planting cacti across Arizona in areas affected by wildfires,
+            contributing to ecosystem restoration and biodiversity conservation.
+            Additionally, I volunteered to organize classrooms at an elementary
+            school, supporting educators in creating an optimal learning
+            environment for young students.
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -34,9 +34,9 @@ const About = () => {
       <div className='flex-container'>
         <div className='content-container'>
           <h2 className='header-text'>My Experience</h2>
-          <p className='paragraph-text'>
+          <div className='paragraph-text'>
             <Accordion />
-          </p>
+          </div>
         </div>
         <div className='image-container'>
           <img
@@ -48,12 +48,14 @@ const About = () => {
 
       <div className='button-section'>
         <h1>RESUME & WORK</h1>
-        <div className='flex-container'>
+        <div className='flex-container1'>
           <div className='resume-container twelve'>
-            <button>Resume</button>
+            <button src='https://docs.google.com/document/d/1oxg7LS5m8v7maFx-PvKB1F83KzFOglrogu6Cfv8z3bE/edit?usp=sharing'>
+              Resume
+            </button>
           </div>
           <div className='work-container twelve'>
-            <button>Work</button>
+            <button src='/about'>Work</button>
           </div>
         </div>
       </div>

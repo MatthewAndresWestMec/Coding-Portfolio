@@ -3,10 +3,10 @@
       list-style: none;
   }
 
-  a {
+ .navbar a {
       text-decoration: none;
-      color: black;
-      font-size: 18px;
+      color: $text-color;
+      font-size: 4vh;
   }
 
   /* navbar */
@@ -22,8 +22,9 @@
 
   /* logo  */
   .logo {
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-size: 6vh !important;
+      font-family: 'Inter';
+      font-weight: 900;
   }
 
 
@@ -85,6 +86,10 @@
 
       .navMenu.active {
           left: 0;
+            backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                width: 100%;
+                z-index: 2;
       }
 
       .navMenu li {
