@@ -11,16 +11,16 @@ const About = () => {
       <br></br>
       <h1 className='under'>About Me</h1>
 
-      <div class='flex-container'>
-        <div class='image-container'>
+      <div className='flex-container'>
+        <div className='image-container'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
             alt='Image Description'
           />
         </div>
-        <div class='content-container'>
-          <h2 class='header-text'>Matthew Andres</h2>
-          <p class='paragraph-text'>
+        <div className='content-container'>
+          <h2 className='header-text'>Matthew Andres</h2>
+          <p className='paragraph-text'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus enim, deleniti blanditiis quam consectetur aliquid fuga
             assumenda perspiciatis earum quisquam atque libero architecto qui
@@ -31,14 +31,14 @@ const About = () => {
         </div>
       </div>
 
-      <div class='flex-container'>
-        <div class='content-container'>
-          <h2 class='header-text'>My Experience</h2>
-          <p class='paragraph-text'>
+      <div className='flex-container'>
+        <div className='content-container'>
+          <h2 className='header-text'>My Experience</h2>
+          <p className='paragraph-text'>
             <Accordion />
           </p>
         </div>
-        <div class='image-container'>
+        <div className='image-container'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
             alt='Image Description'
@@ -48,11 +48,11 @@ const About = () => {
 
       <div className='button-section'>
         <h1>RESUME & WORK</h1>
-        <div class='flex-container'>
-          <div class='resume-container twelve'>
+        <div className='flex-container'>
+          <div className='resume-container twelve'>
             <button>Resume</button>
           </div>
-          <div class='work-container twelve'>
+          <div className='work-container twelve'>
             <button>Work</button>
           </div>
         </div>

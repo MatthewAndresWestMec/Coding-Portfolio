@@ -4,14 +4,14 @@ import '../styles/css/contact.css';
 const Contact = () => {
   return (
     <>
-      <div class='flex-container'>
-        <div class='image-container'>
+      <div className='flex-container'>
+        <div className='image-container'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
             alt='Image Description'
           />
         </div>
-        <div class='content-container'>
+        <div className='content-container'>
           <div className='right'>
             <h2 className='header-text'>Contact Me</h2>
             <a className='email-link' href='mailto:your@email.com'>
