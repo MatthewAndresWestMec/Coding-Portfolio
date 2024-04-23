@@ -26,7 +26,7 @@ const About = () => {
         <div className='image-container'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
-            alt='Image Description'
+            alt='ALT Description'
           />
         </div>
         <div className='content-container'>
@@ -52,7 +52,7 @@ const About = () => {
         <div className='image-container'>
           <img
             src='https://pngfre.com/wp-content/uploads/cat-poster.png'
-            alt='Image Description'
+            alt='ALT Description'
           />
         </div>
       </div>

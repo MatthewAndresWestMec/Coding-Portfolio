@@ -32,22 +32,22 @@ const Footer = () => {
           <div className='footer-social'>
             <ul className='social-icons'>
               <li>
-                <a href='#'>
+                <a href='https://www.facebook.com/'>
                   <i className='fab fa-facebook-f'></i>
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='https://twitter.com/home?lang=en'>
                   <i className='fab fa-twitter'></i>
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='https://www.instagram.com/'>
                   <i className='fab fa-instagram'></i>
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='https://www.linkedin.com/'>
                   <i className='fab fa-linkedin-in'></i>
                 </a>
               </li>
