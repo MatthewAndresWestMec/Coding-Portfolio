@@ -20,7 +20,7 @@ function Navigation() {
         <nav className='navbar'>
           {/* Logo */}
           <a href='/' className='logo'>
-            MATT.
+            MA
           </a>
 
           <ul className={`navMenu ${isActive ? 'active' : ''}`}>

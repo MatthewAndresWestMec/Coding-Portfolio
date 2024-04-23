@@ -48,7 +48,13 @@ button {
         cursor: pointer;
         border: none;
         background: #fff;
+
 }
+
+                .button-a {
+                    color: $text-color;
+                    text-decoration: none;
+                }
 .twelve{
     color: #383b3a;
         border: 1px solid #ccc;

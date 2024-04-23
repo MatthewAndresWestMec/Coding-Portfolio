@@ -84,6 +84,11 @@ button {
   background: #fff;
 }
 
+.button-a {
+  color: #313030;
+  text-decoration: none;
+}
+
 .twelve {
   color: #383b3a;
   border: 1px solid #ccc;
