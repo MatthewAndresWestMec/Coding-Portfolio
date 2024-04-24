@@ -84,13 +84,13 @@
           padding: 10px;
       }
 
-      .navMenu.active {
-          left: 0;
-            backdrop-filter: blur(20px);
-                -webkit-backdrop-filter: blur(20px);
-                width: 100%;
-                z-index: 2;
-      }
+          .navMenu.active {
+              background-color: #ddd3c7a3;
+              /* White color with 50% opacity */
+              left: 0;
+              width: 100%;
+              z-index: 2;
+          }
 
       .navMenu li {
           margin: 16px 0;
@@ -101,4 +101,39 @@
 
   .App{
     z-index: 3;
+  }
+
+  /* Default styles */
+  .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+  }
+
+  .content-container {
+      /* Default styles for content container */
+      /* Adjust as needed */
+  }
+
+  /* Media queries */
+  @media screen and (max-width: 780px) {
+.header-text{
+    text-align: center;
+}
+      /* Adjust .flex-container for smaller screens */
+      .flex-container {
+          flex-direction: column;
+          /* Stack items vertically */
+          gap: 20px;
+          /* Reduce gap between items */
+      }
+
+      /* Adjust .content-container for smaller screens */
+      .content-container {
+          padding: 0 20px;
+          /* Add padding to the content container */
+          text-align: center;
+          /* Center align text */
+      }
   }

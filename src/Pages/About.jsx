@@ -35,9 +35,8 @@ const About = () => {
             I am a high school student currently attending Sunrise Mountain High
             School and West-Mec North East Campus for Coding. My academic
             journey has led me to pursue a degree in Biological Science at
-            Arizona State University. With a passion for healthcare and a keen
-            interest in dentistry, optometry, and pharmaceuticals, I am excited
-            to embark on this path towards a rewarding career in healthcare.
+            Arizona State University. I am excited to embark on this path
+            towards a rewarding career in healthcare.
           </p>
         </div>
       </div>

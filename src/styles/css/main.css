@@ -166,4 +166,23 @@ body {
   max-width: 100%;
   /* Ensure image does not exceed its container */
   height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    width: 100%;
+  }
+  .box h1 {
+    font-size: 12vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  .box h1 {
+    font-size: 10vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .box h1 {
+    font-size: 8vh;
+  }
 }/*# sourceMappingURL=main.css.map */
