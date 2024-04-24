@@ -42,9 +42,14 @@ const Main = () => {
           className='image-container'
           data-aos='fade-up'
           data-aos-delay='200'>
+          <iframe
+            src='https://drive.google.com/file/d/1aGUo7o9HBO_pdRZEvJQTqbjzMWCQoCJr/preview'
+            width='640'
+            height='480'
+            allow='autoplay'></iframe>
           <img
-            src='https://pngfre.com/wp-content/uploads/cat-poster.png'
-            alt='Description'
+            src='https://nec-coding.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fwest-mec-north-east-campus-coding%2Fimage%2Fupload%2Fc_thumb%2Cw_600%2Cg_face%2FNewsLetter%2FcurrentStudents%2FDSC_0079_nfugiz.jpg&w=384&q=75'
+            alt='ALT Description'
           />
         </div>
       </div>
