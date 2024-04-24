@@ -4,9 +4,8 @@ import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-
 import '../styles/css/main.css';
-
+import image1 from './me.JPG';
 const Main = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -42,15 +41,17 @@ const Main = () => {
           className='image-container'
           data-aos='fade-up'
           data-aos-delay='200'>
-          <iframe
+          <img
+            src={image1}
+            alt='ALT Description'
+            height={'800px'}
+            width={'400px'}
+          />
+          {/* <iframe
             src='https://drive.google.com/file/d/1aGUo7o9HBO_pdRZEvJQTqbjzMWCQoCJr/preview'
             width='640'
             height='480'
-            allow='autoplay'></iframe>
-          <img
-            src='https://nec-coding.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fwest-mec-north-east-campus-coding%2Fimage%2Fupload%2Fc_thumb%2Cw_600%2Cg_face%2FNewsLetter%2FcurrentStudents%2FDSC_0079_nfugiz.jpg&w=384&q=75'
-            alt='ALT Description'
-          />
+            allow='autoplay'></iframe> */}
         </div>
       </div>
 
