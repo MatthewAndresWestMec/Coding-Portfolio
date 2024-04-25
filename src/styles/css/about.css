@@ -105,4 +105,9 @@ button {
 .twelve:active {
   transform: translateY(3px);
   box-shadow: 0 0 1px #ccc;
+}
+
+.prom-image {
+  height: 40vh;
+  width: 30vh;
 }/*# sourceMappingURL=about.css.map */

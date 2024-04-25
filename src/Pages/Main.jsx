@@ -30,7 +30,7 @@ const Main = () => {
 
       <div className='flex-container'>
         <div className='content-container' data-aos='fade-up'>
-          <h2 className='header-text'>Sup, I'm Matthew</h2>
+          <h2 className='header-text'>I'm Matthew</h2>
           <p className='paragraph-text'>
             Thank you for visiting my portfolio. I am currently a Biological
             Science Student at ASU with intent to study in dentistry. Graduated
@@ -44,8 +44,8 @@ const Main = () => {
           <img
             src={image1}
             alt='ALT Description'
-            height={'800px'}
-            width={'400px'}
+            height={'700px'}
+            width={'300px'}
           />
           {/* <iframe
             src='https://drive.google.com/file/d/1aGUo7o9HBO_pdRZEvJQTqbjzMWCQoCJr/preview'

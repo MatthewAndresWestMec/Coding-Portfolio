@@ -6,7 +6,7 @@ import Contact from '../Components/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/css/about.css';
-
+import image2 from './capture.png';
 const About = () => {
   useEffect(() => {
     AOS.init({
@@ -25,7 +25,8 @@ const About = () => {
       <div className='flex-container' data-aos='fade-up'>
         <div className='image-container'>
           <img
-            src='https://nec-coding.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fwest-mec-north-east-campus-coding%2Fimage%2Fupload%2Fc_thumb%2Cw_600%2Cg_face%2FNewsLetter%2FcurrentStudents%2FDSC_0079_nfugiz.jpg&w=384&q=75'
+            src={image2}
+            className='prom-image'
             alt='ALT Description'
           />
         </div>
@@ -50,7 +51,7 @@ const About = () => {
         </div>
         <div className='image-container'>
           <img
-            src='https://nec-coding.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fwest-mec-north-east-campus-coding%2Fimage%2Fupload%2Fv1707285906%2FNewsLetter%2FBlog%2520Pics%2F20240117_170810_or7yle_bcdosq.jpg&w=640&q=75'
+            src='https://nec-coding.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fwest-mec-north-east-campus-coding%2Fimage%2Fupload%2Fc_thumb%2Cw_600%2Cg_face%2FNewsLetter%2FcurrentStudents%2FDSC_0079_nfugiz.jpg&w=384&q=75'
             alt='ALT Description'
           />
         </div>

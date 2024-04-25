@@ -82,7 +82,6 @@ ul {
     height: 3px;
     display: block;
     margin: 5px;
-    -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
   }
   /* adding active class to the bars  */
